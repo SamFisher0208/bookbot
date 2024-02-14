@@ -18,7 +18,9 @@ def get_count_letters(text):
     dict_letters = {}
     lower_string = text.lower()
     
-    # dict.get() method is used to check the previously occurring character in string, if its new, it assigns 0 as initial and appends 1 to it, else appends 1 to previously holded value of that element in dictionary. 
+    # dict.get() method is used to check the previously occurring character in string, 
+    # if its new, it assigns 0 as initial and appends 1 to it, 
+    # else appends 1 to previously holded value of that element in dictionary. 
     
     for keys in lower_string:
         dict_letters[keys] = dict_letters.get(keys, 0) + 1
