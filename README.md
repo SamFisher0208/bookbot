@@ -5,6 +5,7 @@ A real command-line application in Python that does static analysis on text file
  - Clone repo or download
  - Add your text file to a directory inside bookbot folder, i.e. "bookbot/books/text.txt"
  - Then run:
+   
     ```
     python main.py
     ```
